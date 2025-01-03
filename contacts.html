@@ -169,6 +169,30 @@
             window.open(url, '_blank').focus();
         }
     </script>
+	
+   <div class="contact-form-container">
+        <h1>Email Us</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b165cc61-a887-42fb-98b1-1a1c4581675e">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <small>Powered by Web3Forms</small>
+    </div>
+</div>
+
+
+
+
 </body>
 
            <!--End contact us via whatsapp-->
