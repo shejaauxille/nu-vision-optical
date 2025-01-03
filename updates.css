@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Nu-Vision Optical Updates</title>
+         <nav>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+
+      <li><a href="services.html">services</a></li>
+      <li><a href="contacts.html">contact</a></li>
+      <li><a href="#">Updates</a></li>
+
+    </ul>
+    <ul>
+      <li><a href="#"> <img src="logo.png"> </a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile" id="scrollButton-products"><a href="#">Products</a></li>
+      <li class="hideOnMobile" id="scrollButton-services"><a href="#">services</a></li>
+      <li class="hideOnMobile" id="scrollButton-contacts"><a href="#">Contact</a></li>
+      <li class="hideOnMobile" id="scrollButton-contacts"><a href="Updates.html">Updates</a></li>
+
+      <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'flex';
+    }
+
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'none';
+    }
+
+    // Background image rotation
+    let currentImage = 0;
+    const images = ['image5.png', 'image6.png', 'image3.png']; // Add the images here
+
+    function changeBackground() {
+      document.querySelector('.home').style.backgroundImage = `url(${images[currentImage]})`;
+      currentImage = (currentImage + 1) % images.length; // Rotate between the images
+    }
+
+    setInterval(changeBackground, 5000); // Change image every 5 seconds
+  </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .update-section {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .video-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        video {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        .update-text {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+  <header>
+        <h1>Nu-Vision Optical Updates</h1>
+    </header>
+    <div class="content">
+        <section class="update-section">
+            <h2>Latest flames</h2>
+            <div class="image-gallery">
+                <!-- Placeholder images, replace src with actual image paths -->
+                <img src="WhatsApp Image 2025-01-03 at 4.32.01 PM (1).jpeg" alt="Image 1">
+                <img src="WhatsApp Image 2025-01-03 at 4.32.01 PM.jpeg" alt="Image 2">
+                <img src="WhatsApp Image 2025-01-03 at 4.32.07 PM (1).jpeg" alt="Image 3">
+                <img src="WhatsApp Image 2025-01-03 at 4.32.07 PM.jpeg" alt="Image 4">
+                <img src="WhatsApp Image 2025-01-03 at 4.32.17 PM (1).jpeg" alt="Image 5">
+                <img src="WhatsApp Image 2025-01-03 at 4.32.45 PM.jpeg" alt="Image 6">
+                <img src="WhatsApp Image 2025-01-03 at 4.32.51 PM.jpeg" alt="Image 7">
+                <img src="WhatsApp Image 2025-01-03 at 4.33.42 PM.jpeg" alt="Image 8">
+                <img src="WhatsApp Image 2025-01-03 at 4.34.51 PM.jpeg" alt="Image 9">
+                <img src="WhatsApp Image 2025-01-03 at 4.34.57 PM.jpeg" alt="Image 10">
+                <img src="WhatsApp Image 2025-01-03 at 4.35.00 PM.jpeg" alt="Image 11">
+                <img src="WhatsApp Image 2025-01-03 at 4.35.08 PM.jpeg" alt="Image 12">
+                <img src="WhatsApp Image 2025-01-03 at 4.35.14 PM.jpeg" alt="Image 13">
+                <img src="WhatsApp Image 2025-01-03 at 4.35.17 PM.jpeg" alt="Image 14">
+                <img src="WhatsApp Image 2025-01-03 at 4.35.39 PM.jpeg" alt="Image 15">
+                <img src="WhatsApp Image 2025-01-03 at 4.36.24 PM.jpeg" alt="image 16">
+            </div>
+        </section>
+
+        <section class="video-section">
+            <h2>Latest flames</h2>
+            <video controls>
+                <!-- Replace src with the actual video path -->
+                <source src="WhatsApp Video 2025-01-03 at 4.37.35 PM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+             <video controls>
+                <!-- Replace src with the actual video path -->
+                <source src="WhatsApp Video 2025-01-03 at 4.37.37 PM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <!-- Replace src with the actual video path -->
+                <source src="WhatsApp Video 2025-01-03 at 4.36.53 PM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="update-section">
+            <h2>Update</h2>
+            <p class="update-text">
+                We are excited to announce the arrival of our new collection of premium eyewear frames! Visit us today to explore the latest styles and enjoy personalized fittings with our expert team.
+            </p>
+        </section>
+    </div>
+
+   
+</body>
+</html>

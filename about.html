@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title></title>
+</head>
+<body>
+
+
+
+
+        <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="contacts.html">contact</a></li>
+            <li><a href="updates.html">Updates</a></li>
+
+    </ul>
+    <ul>
+      <li><a href="#"> <img src="logo.png"> </a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="products.html">Products</a></li>
+           <li class="hideOnMobile"><a href="about.html">About</a></li>
+
+      <li class="hideOnMobile"><a href="services.html">services</a></li>
+      <li class="hideOnMobile"><a href="contacts.html">Contact</a></li>
+            <li class="hideOnMobile" id="scrollButton-contacts"><a href="Updates.html">Updates</a></li>
+
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+          <!--brands-->
+   <main class="about-section" id="targetSection" style="margin-top: 0px;">
+        <div class="container">
+            <h2>About Nu-Vision Optical</h2>
+            <p>
+                Welcome to <strong>Nu-Vision Optical</strong>, your trusted partner in eye care and premium eyewear solutions.
+            </p>
+            <p>
+                At Nu-Vision Optical, we believe that clear vision empowers lives. Our mission is to provide exceptional eye care services, innovative optical products, and personalized attention to every customer. Whether you're seeking stylish eyewear, advanced contact lenses, or comprehensive eye examinations, we are here to meet all your visual needs with excellence.
+            </p>
+
+            <h3>Our Story</h3>
+            <p>
+                Providing affordal care for Rwanda The beauty about the Rwandan story of recovery is that following the total destructions of the 1994 genocide against the Tutsi, all able Rwandans no matter how established their lives seemed wherever they were, responded to the call to return and join in the reconstruction. <br> <br> Dr. Martin Rusanga and his Wife Evelyn Rusanga who were at time Canadian residents were among those that answered the call, opening an optical clinic for eye care as the country struggled to pick pieces of itself from post conflict debris. <br> 
+            </p>
+
+            <h3>What We Offer</h3>
+            <ul>
+                <li><strong>Eye Care Services:</strong> Comprehensive eye exams, vision screenings, and tailored solutions for optimal eye health.</li>
+                <li><strong>Fashionable Eyewear:</strong> A curated selection of frames and sunglasses, blending functionality with style.</li>
+                <li><strong>Contact Lenses:</strong> High-quality lenses designed for comfort and clarity.</li>
+                <li><strong>Cutting-Edge Technology:</strong> Advanced diagnostic tools and equipment to ensure precise results.</li>
+            </ul>
+
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li><strong>Expertise You Can Trust:</strong> Our team of skilled optometrists and experienced staff prioritize your eye health.</li>
+                <li><strong>Wide Selection:</strong> From trendy frames to classic designs, we have eyewear for every personality and need.</li>
+                <li><strong>Customer-Centered Approach:</strong> Your satisfaction is our top priority. We take the time to understand your preferences and provide personalized recommendations.</li>
+                <li><strong>Community Commitment:</strong> We are dedicated to giving back and promoting awareness about eye health in our community.</li>
+            </ul>
+            <h3>Our Vision</h3>
+            <p>
+                To lead the optical industry by setting standards for excellence in eye care and fashion-forward eyewear, while fostering lifelong relationships with our customers.
+            </p>
+            <h3>Our Branches</h3>
+            <p>Nu-Optical is an optical solutions provider with headquarters in Kigali and a branch in Huye, offering quality eyewear and eye care services.</p>
+
+            
+            <h3>Location</h3>
+            <p>Find our locations on <a href="https://www.google.com/maps/place/Nu+Vision+Optical/@-1.9456331,30.0588031,17z/data=!4m14!1m7!3m6!1s0x19dca59fa1fba289:0xe54ddb07469572a0!2sNu+Vision+Optical!8m2!3d-1.9456385!4d30.061378!16s%2Fg%2F11qmbxnqy6!3m5!1s0x19dca59fa1fba289:0xe54ddb07469572a0!8m2!3d-1.9456385!4d30.061378!16s%2Fg%2F11qmbxnqy6?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">Google Maps - Nyarugenge, Kigali. HQ  </a> CHIC Building, First Floor next to Radiant opposite I & M Bank 0-floor, shop No.046</p>
+
+            <h3>Contact Us</h3>
+            <p>
+                P.O Box 2681,kigali <br>
+                We look forward to serving you! Visit us today and experience the Nu-Vision difference. <br>
+                feel free to call or write us an email <br>
+                Tel : <strong>+250 788642443 </strong><br>
+                Email:<strong> <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfSnNNDKCTzTDXBdZjGrHwlclSkNxxlflBjXpDlJNhNhVlwTCKgBrnbVKBvqgJPlJKMqq">nuvisionopticalltd@gmail.com</a> </strong>
+            </p>
+            <p><strong>Nu-Vision Optical – Seeing the World Clearly, Together.</strong></p>
+        </div>
+    </main>
+
+
+           <!--End of brands-->
+</body>
+</html>

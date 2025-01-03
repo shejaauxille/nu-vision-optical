@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+        <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+
+      <li><a href="services.html">services</a></li>
+      <li><a href="contacts.html">contact</a></li>
+            <li><a href="updates.html">Updates</a></li>
+
+    </ul>
+    <ul>
+      <li><a href="#"> <img src="logo.png"> </a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+     <li class="hideOnMobile"><a href="products.html">Products</a></li>
+     <li class="hideOnMobile"><a href="about.html">About</a></li>
+
+      <li class="hideOnMobile"><a href="services.html">services</a></li>
+      <li class="hideOnMobile"><a href="contacts.html">Contact</a></li>
+            <li class="hideOnMobile" id="scrollButton-contacts"><a href="Updates.html">Updates</a></li>
+
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+	<section  id="targetSection-services" style="margin-top: 0px;" >
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Our <span>services</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h2>Eye Testing</h2>
+            <p>We provide professional eye testing services to ensure clear and healthy vision. Using advanced equipment, our specialists accurately assess your eyesight and offer personalized recommendations for corrective lenses or other solutions to meet your unique vision needs.</p>
+          </div>
+          <div class="project-img">
+            <img src="eyetesting.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>provission of eye grasses</h2>
+            <p>We offer high-quality eyeglasses tailored to your vision needs. From accurate prescriptions to a variety of stylish frames, our service ensures clear vision and comfort. Trust us for reliable, personalized eyewear solutions that enhance your everyday life.</p>
+          </div>
+          <div class="project-img">
+            <img src="provision.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h2>spectacle fitting</h2>
+            <p>We provide professional spectacle fitting services to ensure your glasses fit perfectly and comfortably. Our experts adjust frames for proper alignment and secure placement, offering personalized care to enhance both your vision and confidence in everyday wear.</p>
+          </div>
+          <div class="project-img">
+            <img src="spectacle.png" alt="img">
+          </div>
+        </div>
+           <div class="project-item">
+          <div class="project-info">
+            <h2>Contact lense fitting</h2>
+            <p>We provide professional eye testing services to ensure clear and healthy vision. Using advanced equipment, our specialists accurately assess your eyesight and offer personalized recommendations for corrective lenses or other solutions to meet your unique vision needs.</p>
+          </div>
+          <div class="project-img">
+            <img src="eyetesting.png" alt="img">
+          </div>
+        </div>
+      
+   
+  </section>
+</body>
+</html>
